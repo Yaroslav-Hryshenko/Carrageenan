@@ -54,7 +54,7 @@ body {
 .header {
   padding-top: 30px;
   padding-bottom: 85px;
-  background-image: url(./img/BackMain.jpg);
+  background-image: url(../img/BackMain.jpg);
 }
 .header-navigation {
   display: flex;
