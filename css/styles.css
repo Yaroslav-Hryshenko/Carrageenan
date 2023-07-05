@@ -134,6 +134,7 @@ body {
 /* -------greeting------------ */
 
 .greeting {
+  margin-top: 109px;
   margin-bottom: 109px;
   width: 1110px;
   font-size: 18px;
