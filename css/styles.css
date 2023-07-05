@@ -42,11 +42,11 @@ body {
 .link {
   text-decoration: none;
 }
-
 .conteiner {
-  width: 1440px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 178px;
+  padding-right: 178px;
+  padding-bottom: 109px;
+ 
   margin: 0 auto;
 }
 
@@ -55,13 +55,18 @@ body {
   padding-top: 30px;
   padding-bottom: 85px;
   background-image: url(../img/BackMain.jpg);
+   background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
+
+
 .header-navigation {
   display: flex;
   align-items: center;
 }
 .header-logo {
-  margin-left: 165px;
+  /* margin-left: 165px; */
   margin-right: 260px;
   margin-bottom: 10px;
 }
@@ -78,16 +83,15 @@ body {
   color: var(--title-color);
 }
 .header-conteiner {
-  margin-left: 165px;
+  /* margin-left: 165px; */
   display: flex;
   align-items: flex-end;
 }
 
 .header-wrapper {
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
-.header-wrapper-next {
-}
+
 .header-title {
   margin-top: 110px;
 
@@ -102,16 +106,14 @@ body {
   width: 456px;
   margin-bottom: 15px;
 }
-.header-info {
-}
+
 
 .header-info-one {
   display: flex;
   align-items: center;
   gap: 34px;
 }
-.header-info-two {
-}
+
 .header-info-text {
   font-weight: 600;
   font-size: 28px;
@@ -133,8 +135,7 @@ body {
   background: var(--logo-color);
   border-radius: 14px;
 }
-.header-foto {
-}
+
 
 /* -------greeting------------ */
 
@@ -144,18 +145,13 @@ body {
   font-size: 18px;
   line-height: 1.67;
   text-align: center;
+  justify-content: center;
   color: var(--title-color);
 }
 
 /* ----------use---------------- */
 
-.use-conteiner {
-  padding-left: 178px;
-  padding-right: 178px;
-  padding-bottom: 109px;
-  padding-top: 109px;
-  margin: 0 auto;
-}
+
 .use {
   display: flex;
 
@@ -180,6 +176,182 @@ body {
   text-align: center;
   
 }
-.img{
+
+/* -------------info--------------- */
+
+.info{
+
+  background-image: url(../img/Backmiddle.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.info-title{
+  margin-bottom: 32px;
+  color: var(--logo-color);
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-size: 34px;
+font-weight: 600;
+line-height: 1.2;
+text-transform: uppercase;
+}
+.info-text{
+  margin-bottom: 30px;
+  color: var(--title-color);
+font-size: 18px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+/* ------------ */
+/* body {
+  font-family: sans-serif;
+  font-size: 20px;
+} */
+
+table {
+
+  margin-top: 48px;
+  border-collapse: collapse;
+}
+
+
+table td {
+  padding: 20px;
   
+  
+}
+
+table td:first-child{
+  
+  font-size: 18px;
+text-align: center;
+font-weight: 700;
+line-height: 30px;
+}
+
+table th{
+  font-size: 28px;
+text-align: center;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.96px;
+}
+.send-btn{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-btn{
+
+    margin-top: 109px;
+    margin-bottom: 109px;
+  width: 350px;
+  height: 60px;
+
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.22;
+ 
+
+  color: var(--text-color);
+  background: var(--logo-color);
+  border-radius: 14px;
+}
+
+/* ---------application------------- */
+.application {
+  
+}
+
+.application-title {
+  margin-bottom: 109px;
+  text-align: center;
+font-size: 34px;
+font-weight: 600;
+line-height: 1.2;
+text-transform: uppercase;
+}
+.application-list {
+   
+}
+
+.application-item {
+  margin-bottom: 109px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+ 
+}
+.application-item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.application-img {
+  
+}
+.application-info {
+}
+.application-pretitle {
+  margin-bottom: 40px;
+  font-size: 28px;
+font-weight: 600;
+letter-spacing: 1.96px;
+
+}
+.application-text {
+  margin-bottom: 40px;
+  font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.application-btn {
+  width: 212px;
+  height: 60px;
+  padding: 16px 50px;
+  border-radius: 14px;
+  border: none;
+  background-color: var(--btn-fon);
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--title-color);
+
+}
+
+.amount{
+
+}
+.amount-title {
+  margin-bottom: 32px;
+  color: var(--logo-color);
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.amount-text {
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.amount-list {
+
+  display: flex;
+  gap: 146px;
+}
+
+.amount-item {
+  
+  font-size: 25px;
+
+font-weight: 600;
+
+letter-spacing: 1.96px;
+}
+.amount-pretitle {
+    margin-bottom: 32px;
+    text-align: center;
 }
