@@ -470,6 +470,7 @@ text-decoration-line: underline;
 .footer-all{
  width: 850px;
  margin-right: 160px;
+ margin-top: 85px;
 }
 .footer-two {
   text-align: center;
@@ -487,7 +488,7 @@ text-decoration-line: underline;
 }
 .footer-tree {
   width: 300px;
- 
+ margin-top: 85px;
   
 }
 .footer-tree-text{
