@@ -517,9 +517,9 @@ text-decoration-line: underline;
 
 /* mob */
 
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
   .conteiner {
     max-width: 428px;
     
   }
-}
+} */
