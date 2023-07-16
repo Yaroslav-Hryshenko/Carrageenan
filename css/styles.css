@@ -512,3 +512,14 @@ text-decoration-line: underline;
 .footer-tree-icon {
   
 }
+
+
+
+/* mob */
+
+@media screen and (min-width: 480px) {
+  .conteiner {
+    max-width: 428px;
+    
+  }
+}
