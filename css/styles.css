@@ -223,7 +223,7 @@ table th {
   letter-spacing: 1.96px;
 }
   td:not(:first-child) {
-            border-left: 3px solid #0b0b11;
+            border-left: 2px solid #439fb8;
         }
 .send-btn {
   display: flex;
