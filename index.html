@@ -18,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -204,7 +205,7 @@
                 карагінан застосовується в виробництві твердих сирів, таких як
                 чеддер та гауда
               </p>
-              <button class="application-btn">Переваги</button>
+              <button class="application-btn js-open-modal" data-modal="1">Переваги</button>
             </div>
           </li>
           <li class="application-item">
@@ -226,7 +227,7 @@
                 кількість води, необхідної для виробництва продукту, що збільшує
                 його економічність.
               </p>
-              <button class="application-btn">Переваги</button>
+              <button class="application-btn js-open-modal" data-modal="2">Переваги</button>
             </div>
           </li>
           <li class="application-item">
@@ -247,7 +248,7 @@
                 придатності. Карагінан допомагає зменшити кристалізацію води в
                 морозиві, що покращує його текстуру та консистенцію.
               </p>
-              <button class="application-btn">Переваги</button>
+              <button class="application-btn js-open-modal" data-modal="3">Переваги</button>
             </div>
           </li>
           <li class="application-item">
@@ -268,7 +269,7 @@
                 додавання карагінану може допомогти утримувати воду та
                 забезпечувати стабільність текстури йогурту з фруктами.
               </p>
-              <button class="application-btn">Переваги</button>
+              <button class="application-btn js-open-modal" data-modal="4">Переваги</button>
             </div>
           </li>
           <li class="application-item">
@@ -285,7 +286,7 @@
                 страви, що дає більше можливостей для творчості та покращення
                 якості готових страв.
               </p>
-              <button class="application-btn">Переваги</button>
+              <button class="application-btn js-open-modal" data-modal="5">Переваги</button>
             </div>
           </li>
         </ul>
@@ -449,7 +450,184 @@
             </li>
           </ul>
           </div>
-        
-    </footer>
+            </footer>
+    <div>
+      <!-- Элементы для вызова модальных окон, могут быть любые -->
+
+
+
+
+<!-- Несколько модальных окон -->
+
+<div class="modal modal-text" data-modal="1">
+   <!--   Svg иконка для закрытия окна  -->
+   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+
+  <h3><strong>Основні переваги</strong></h3>
+  <ul class="advantages-list">
+    <li class="advantages-list-item list">
+      <p class="advantages-title">Покращення консистенції:</p>
+      <p class="advantages-subtitle">карагінан може додати кремову та гладку текстуру сирів, зокрема м'яких та розсипчастих сирів, таких як фета, бринза та рікотта.</p>
+    </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Збільшує стійкість: </p>
+      <p class="advantages-subtitle">карагінан може збільшити стійкість сирів до різних факторів, таких як зміни температури, pH та змішування.</p>
+    </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Збільшує термін зберігання:</p>
+      <p class="advantages-subtitle">використання карагінану може збільшити термін зберігання сирів, зменшити вологість та запобігти розвитку плісняви.</p>   
+     </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Покращує виробництво:</p>
+      <p class="advantages-subtitle">застосування карагінану виробництві сирів дозволяє зменшити використання традиційних загущувачів та емульгаторів, таких як крохмаль та желатин, що дозволяє покращити якість та безпеку продукту, а також полегшити процес виробництва, зменшивши кількість використаних додаткових інгредієнтів та знизивши витрати на зберігання та транспортування, що сприяє покращенню виробництва сирів в цілому.</p>
+    </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Використання у вегетаріанських та веганських сирів:</p>
+      <p class="advantages-subtitle">карагінан має рослинне походження, тому його можна використовувати для виробництва вегетаріанських та веганських сирів.  </p>
+    </li>
+    
+  </ul>
+</div>
+
+
+<div class="modal" data-modal="2">
+   <!--   Svg иконка для закрытия окна  -->
+   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+  
+  <h3><strong>Основні переваги</strong></h3>
+  <ul class="advantages-list">
+    <li class="advantages-list-item list">
+      <p class="advantages-title">Збільшує об'єм продукту:</p>
+      <p class="advantages-subtitle"> карагінан використовують як стабілізатор та загущувач, що дозволяє збільшити об'єм м'ясного продукту без зміни його смаку та текстури.
+
+
+</p>
+    </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Поліпшує текстуру:</p>
+      <p class="advantages-subtitle">додавання карагінану допомагає покращити текстуру продукту, зменшуючи відчуття сухості та забезпечуючи більш рівномірне розподілення жиру та води в продукті.
+
+</p>
+    </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Підвищує стійкість до термічної обробки: </p>
+      <p class="advantages-subtitle"> карагінан допомагає зберегти форму та структуру продукту під час теплової обробки, такої як смаження або варіння.
+
+</p>   
+     </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Збільшує термін зберігання: </p>
+      <p class="advantages-subtitle"> додавання карагінану допомагає збільшити термін зберігання м'ясних продуктів, оскільки він запобігає зміні текстури та консистенції продукту.
+</p>
+    
+    
+  </ul>
+</div>
+
+<div class="modal" data-modal="3">
+   <!--   Svg иконка для закрытия окна  -->
+   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+  
+  <h3><strong>Основні переваги</strong></h3>
+  <ul class="advantages-list">
+    <li class="advantages-list-item list">
+      <p class="advantages-title">Покращує текстуру:</p>
+      <p class="advantages-subtitle"> Карагінан допомагає запобігти утворенню кристалів льоду в морозиві, що забезпечує більш м'яку і кремову текстуру.
+
+</p>
+    </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Збільшує стабільність: </p>
+      <p class="advantages-subtitle"> Додавання карагінану забезпечує більшу стабільність морозива в умовах зміни температури. Це означає, що морозиво залишається кремоподібним і не розпливається при високих температурах.
+</p>
+    </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Зменшує калорійність: </p>
+      <p class="advantages-subtitle"> Карагінан може замінювати частину жиру у рецепті морозива, зменшуючи загальну кількість калорій в продукті.
+</p>   
+     </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Покращує смак: </p>
+      <p class="advantages-subtitle">Додавання карагінану може покращити смак морозива, особливо якщо в нього додано інші ароматизатори.
+</p>
+    </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Збільшує термін зберігання:</p>
+      <p class="advantages-subtitle">Морозиво з карагінаном має більший термін зберігання порівняно зі звичайним морозивом без додавання стабілізаторів. </p>
+    </li>
+    
+  </ul>
+</div>
+
+<div class="modal" data-modal="4">
+   <!--   Svg иконка для закрытия окна  -->
+   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+   
+  <h3><strong>Основні переваги</strong></h3>
+  <ul class="advantages-list">
+    <li class="advantages-list-item list">
+      <p class="advantages-title">Покращення консистенції:</p>
+      <p class="advantages-subtitle"> карагінан допомагає покращити текстуру йогурту, забезпечуючи більш гладку та однорідну консистенцію. Це особливо важливо для йогуртів з низьким вмістом жиру, які можуть бути схильні до грудочок або розділення.
+
+</p>
+    </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Покращення стійкості:</p>
+      <p class="advantages-subtitle"> додавання карагінану може допомогти підвищити стійкість йогурту до високих температур та високої вологості. Це дозволяє зберігати йогурт у гарячому кліматі або в умовах високої вологості без втрати якості.
+
+</p>
+    </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Покращення смаку: </p>
+      <p class="advantages-subtitle"> Карагінан може допомогти покращити смак та аромат йогурту, додаючи йому більш насичений та приємний смак.
+</p>   
+     </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Покращення здоров'я: </p>
+      <p class="advantages-subtitle">Карагінан є природним рослинним волокном, яке може мати позитивний вплив на здоров'я кишечнику. Включення карагінану в йогурт може допомогти покращити травлення та зменшити ризик розвитку деяких захворювань.
+</p>
+    
+</div>
+
+<div class="modal" data-modal="5">
+   <!--   Svg иконка для закрытия окна  -->
+   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
+  
+  <h3><strong>Основні переваги</strong></h3>
+  <ul class="advantages-list">
+    <li class="advantages-list-item list">
+      <p class="advantages-title">Гелювання при низькій концентрації:</p>
+      <p class="advantages-subtitle">Карагінан може гелювати при низькій концентрації порівняно з іншими загущувачами, такими як желатин або крохмаль. Це означає, що для досягнення гелювання потрібно менше інгредієнтів, що дозволяє зберегти текстуру та смак страви.
+</p>
+    </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Робить страви більш стійкими: </p>
+      <p class="advantages-subtitle">Карагінан може допомогти зберегти текстуру та форму страви при високих температурах або під час механічних впливів. Наприклад, використання карагінану дозволяє зберегти форму під час високотемпературної обробки в підготовці супу.
+</p>
+    </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Варіативність використання:</p>
+      <p class="advantages-subtitle">Карагінан може використовуватися для гелювання різних типів рідин, включаючи кислі та солодкі рідини, що дає більше варіативності в застосуванні.
+</p>   
+     </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Покращує текстуру та вигляд страви: </p>
+      <p class="advantages-subtitle">Карагінан може додати кремоподібну текстуру до соусів, десертів та інших страв. Крім того, він може додати прозорість до рідин, що дозволяє покращити вигляд страви.</p>
+    </li>
+     <li class="advantages-list-item list">
+      <p class="advantages-title">Зменшення використання інших стабілізаторів:</p>
+      <p class="advantages-subtitle">Карагінан може замінити інші стабілізатори, такі як камедь, гуарова камедь і карбоксиметилцелюлоза. </p>
+    </li>
+    
+  </ul>
+</div>
+
+<!-- Подложка под модальным окном -->
+<div class="overlay js-overlay-modal"></div>
+    </div>
+
+
+
+    <script src="./modal.js"></script>
   </body>
 </html>
