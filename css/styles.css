@@ -500,10 +500,15 @@ text-decoration-line: underline;
 .footer-two-item {
 }
 .footer-two-link {
+
 }
 
 .footer-two-icon {
-
+  fill: #439fb8;
+}
+.footer-two-icon:hover,
+.footer-two-icon:focus{
+ fill:  #c9dc1c ;
 }
 .footer-tree {
   width: 300px;
