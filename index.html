@@ -18,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -37,9 +38,13 @@
           <li class="header-item">Контакти</li>
         </ul>
       </nav>
+
+      
       <div class="header-conteiner">
         <div class="header-wrapper">
-          <h1 class="header-title">Карагінан</h1>
+          <h1 class="header-title" data-aos="flip-left"
+                                  data-aos-easing="ease-out-cubic"
+                                   data-aos-duration="2000">Карагінан</h1>
           <p class="header-text">
             Натуральна харчова добавка для покращення текстури та стабілізації
             продуктів з морських водоростей
@@ -109,7 +114,7 @@
       </section>
       <!------------------- info ----------------------------------->
       <section class="info conteiner">
-        <h2 class="info-title">Карагінан - його види та особливості</h2>
+        <h2 class="info-title" >Карагінан - його види та особливості</h2>
         <p class="info-text">
           Карагінани - це сімейство гідроколоїдів, що дозволяють загущати,
           стабілізувати та утворювати гелі. Отримуют з червоних водоростей, тому
@@ -183,10 +188,10 @@
       </div>
       <!------------application-------------->
       <section class="application conteiner">
-        <h2 class="application-title">Де використовують карагінан?</h2>
+        <h2 class="application-title" data-aos="flip-up">Де використовують карагінан?</h2>
         <ul class="application-list list">
           <li class="application-item">
-            <img
+            <img data-aos="fade-down-right"
               src="./img/camamber.jpg"
               alt=""
               width="540"
@@ -194,7 +199,7 @@
               class="application-img"
             />
             <div class="application-info">
-              <h3 class="application-pretitle">
+              <h3 class="application-pretitle" data-aos="zoom-in">
                 Сир на основі карагінану: новий рівень м'якості і консистенції
               </h3>
               <p class="application-text">
@@ -209,14 +214,14 @@
             </div>
           </li>
           <li class="application-item">
-            <img
+            <img  data-aos="fade-left"
               src="./img/sausages.jpg"
               alt=""
               width="540"
               class="application-img"
             />
             <div class="application-info">
-              <h3 class="application-pretitle">
+              <h3 class="application-pretitle" data-aos="zoom-in">
                 В м'ясних виробах: забезпечення стабільної текстури та смаку
               </h3>
               <p class="application-text">
@@ -231,14 +236,14 @@
             </div>
           </li>
           <li class="application-item">
-            <img
+            <img data-aos="fade-down-right"
               src="./img/icecreame.jpg"
               alt=""
               width="540"
               class="application-img"
             />
             <div class="application-info">
-              <h3 class="application-pretitle">
+              <h3 class="application-pretitle" data-aos="zoom-in">
                 Морозиву забезпечує: кремову консистенцію без кристалів льоду та
                 підвищену стійкість до танення
               </h3>
@@ -252,14 +257,14 @@
             </div>
           </li>
           <li class="application-item">
-            <img
+            <img  data-aos="fade-left"
               src="./img/Yogurte.jpg"
               alt=""
               width="540"
               class="application-img"
             />
             <div class="application-info">
-              <h3 class="application-pretitle">
+              <h3 class="application-pretitle" data-aos="zoom-in">
                 Йогурт з карагінаном: стійка консистенція і підвищена здатність
                 до зберігання
               </h3>
@@ -273,9 +278,9 @@
             </div>
           </li>
           <li class="application-item">
-            <img src="./img/Molecular.jpg" alt="" width="540" />
+            <img data-aos="fade-down-right" src="./img/Molecular.jpg" alt="" width="540" />
             <div class="application-info">
-              <h3 class="application-pretitle">
+              <h3 class="application-pretitle" data-aos="zoom-in">
                 Молекулярна кухня з карагінаном: відкрийте нові можливості у
                 гастрономії
               </h3>
@@ -452,17 +457,18 @@
           </div>
             </footer>
     <div>
-      <!-- Элементы для вызова модальных окон, могут быть любые -->
+    
 
 
 
 
-<!-- Несколько модальных окон -->
+
 
 <div class="modal modal-text" data-modal="1">
    <!--   Svg иконка для закрытия окна  -->
-   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
-
+   <svg class="modal__cross js-modal-close" width="24" height="24">
+                  <use href="./img/icon.svg#icon-x"></use>
+                </svg>
   <h3><strong>Основні переваги</strong></h3>
   <ul class="advantages-list">
     <li class="advantages-list-item list">
@@ -492,8 +498,9 @@
 
 <div class="modal" data-modal="2">
    <!--   Svg иконка для закрытия окна  -->
-   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
-  
+   <svg class="modal__cross js-modal-close"  width="24" height="24">
+                  <use href="./img/icon.svg#icon-x"></use>
+                </svg>
   <h3><strong>Основні переваги</strong></h3>
   <ul class="advantages-list">
     <li class="advantages-list-item list">
@@ -526,8 +533,9 @@
 
 <div class="modal" data-modal="3">
    <!--   Svg иконка для закрытия окна  -->
-   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
-  
+   <svg class="modal__cross js-modal-close"  width="24" height="24">
+                  <use href="./img/icon.svg#icon-x"></use>
+                </svg>
   <h3><strong>Основні переваги</strong></h3>
   <ul class="advantages-list">
     <li class="advantages-list-item list">
@@ -561,8 +569,9 @@
 
 <div class="modal" data-modal="4">
    <!--   Svg иконка для закрытия окна  -->
-   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
-   
+   <svg class="modal__cross js-modal-close"  width="24" height="24">
+                  <use href="./img/icon.svg#icon-x"></use>
+                </svg>
   <h3><strong>Основні переваги</strong></h3>
   <ul class="advantages-list">
     <li class="advantages-list-item list">
@@ -591,8 +600,9 @@
 
 <div class="modal" data-modal="5">
    <!--   Svg иконка для закрытия окна  -->
-   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/></svg>
-  
+   <svg class="modal__cross js-modal-close"  width="24" height="24">
+                  <use href="./img/icon.svg#icon-x"></use>
+                </svg>
   <h3><strong>Основні переваги</strong></h3>
   <ul class="advantages-list">
     <li class="advantages-list-item list">
@@ -625,9 +635,13 @@
 <!-- Подложка под модальным окном -->
 <div class="overlay js-overlay-modal"></div>
     </div>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
 
+<script>
+  AOS.init();
+</script>
 
-
+   
     <script src="./modal.js"></script>
   </body>
 </html>

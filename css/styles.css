@@ -35,6 +35,7 @@ ul {
 }
 body {
   font-family: "Montserrat", sans-serif;
+  
 }
 .list {
   list-style: none;
@@ -51,6 +52,18 @@ body {
 }
 
 /* ---------------header--------------- */
+
+
+
+
+
+
+
+
+
+
+
+
 .header {
   padding-top: 30px;
   padding-bottom: 85px;
@@ -58,6 +71,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  
 }
 
 .header-navigation {
@@ -525,5 +539,8 @@ text-decoration-line: underline;
   .conteiner {
     max-width: 428px;
     
+  }
+  .header-item{
+    display: none;
   }
 } */
